@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="RIP_Framework_Template.Relativiy.278be437-81e8-41f6-8b53-3336c1648beb" Version="1.1" Language="en-US" Publisher="Relativity" />
+    <DisplayName>RIP_Framework_Template</DisplayName>
+    <Description xml:space="preserve">Relativity Integration Points Template Files</Description>
+    <Icon>favicon.ico</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[13.0,16.0)" />
+    <InstallationTarget Version="[13.0,16.0)" Id="Microsoft.VisualStudio.Enterprise" />
+    <InstallationTarget Version="[13.0,16.0)" Id="Microsoft.VisualStudio.Community" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\RIP_Template.zip" />
+  </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
+</PackageManifest>
